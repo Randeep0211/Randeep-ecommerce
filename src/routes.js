@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './Home';
-import About from './About';
-import Products from './Products';
-import Contact from './Contact';
-import SingleProduct from './SingleProduct';
-import Cart from './Cart';
-import ErrorPage from './ErrorPage';
+import HomePage from './components/Home';
+import About from './components/About';
+import Products from './components/Products';
+import Contact from './components/Contact';
+import SingleProduct from './components/SingleProduct';
+import Cart from './components/Cart';
+import ErrorPage from './components/ErrorPage';
 
 const AppRoutes = () => {
     return (

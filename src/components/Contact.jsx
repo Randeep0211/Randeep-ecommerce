@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Footer from './components/common/footer';
+import Footer from './common/footer';
 
 const Contact = () => {
     const Wrapper = styled.section`

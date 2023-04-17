@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroSection from './components/common/HeroSection';
-import Services from './components/services';
-import Trusted from './components/Trusted';
-import Footer from './components/common/footer';
+import HeroSection from './common/HeroSection';
+import Services from './services';
+import Trusted from './Trusted';
+import Footer from './common/footer';
 
 const Wrapper = styled.section`
     height: 100vh;
