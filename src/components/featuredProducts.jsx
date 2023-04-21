@@ -110,11 +110,12 @@ const FeaturedProducts = () => {
                             return (
                                 <Product
                                     key={currElem.id}
-                                    id={currElem.id}
-                                    name={currElem.name}
-                                    price={currElem.price}
-                                    category={currElem.category}
-                                    image={currElem.image}
+                                    {...currElem}
+                                    // id={currElem.id}
+                                    // name={currElem.name}
+                                    // price={currElem.price}
+                                    // category={currElem.category}
+                                    // image={currElem.image}
                                 />
                             );
                         })}

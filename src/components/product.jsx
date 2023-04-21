@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import NumberFormat from '../helper/NumberFormat';
 
-const Product = ({ id, image, name, price, category }) => {
+const Product = (currElem) => {
+    const { id, image, name, price, category } = currElem;
     return (
         <>
             <NavLink to={`/single-product/${id}`}>
@@ -14,7 +16,9 @@ const Product = ({ id, image, name, price, category }) => {
                     <div className="card-data">
                         <div className="card-data-flex">
                             <h3>{name}</h3>
-                            <p className="card-data--price">{price}</p>
+                            <p className="card-data--price">
+                                <NumberFormat Price={price}></NumberFormat>
+                            </p>
                         </div>
                     </div>
                 </div>
